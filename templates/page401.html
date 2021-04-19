@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+{{ super() }}
+<p>Ошибка доступа. Вернуться на <a href="{{ url_for('index') }}">главную</a>
+    страницу.
+{% endblock %}
